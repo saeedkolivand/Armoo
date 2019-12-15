@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="afcead00-b9e4-4969-87f8-4d698a338409" name="Default Changelist" comment="" />
+    <list default="true" id="afcead00-b9e4-4969-87f8-4d698a338409" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1UpFcIYtU9uRatBEEuFyXSlJXHD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -15,7 +24,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -44,7 +55,7 @@
       <workItem from="1576081864227" duration="195000" />
       <workItem from="1576302909843" duration="19544000" />
       <workItem from="1576354649277" duration="2671000" />
-      <workItem from="1576390465572" duration="2623000" />
+      <workItem from="1576390465572" duration="12738000" />
     </task>
     <servers />
   </component>
@@ -52,6 +63,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="708" y="403" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1576405267901">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="708" y="403" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1080@0.0.1920.1080" timestamp="1576405267901" />
     <state x="100" y="100" width="1720" height="880" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1576355329689">
       <screen x="0" y="23" width="1920" height="988" />
     </state>
@@ -62,9 +77,9 @@
     <state x="625" y="255" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1576053491883" />
     <state x="625" y="255" key="run.anything.popup/0.23.1920.988@0.23.1920.988" timestamp="1576305180912" />
     <state x="625" y="255" key="run.anything.popup/0.23.1920.991@0.23.1920.991" timestamp="1576067139645" />
-    <state x="625" y="241" key="search.everywhere.popup" timestamp="1576045871527">
+    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1576396795825">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="625" y="241" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1576045871527" />
+    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1576396795825" />
   </component>
 </project>

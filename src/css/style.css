@@ -8,39 +8,9 @@
     font-style: normal;
 }
 
-@font-face {
-    font-family: "BYekan-Bold";
-    src: url("../font/BYekanBold/BYekanBold.eot");
-    src: url("../font/BYekanBold/BYekanBold.eot?#iefix") format("embedded-opentype"),
-    url("../font/BYekanBold/BYekanBold.otf") format("opentype"),
-    url("../font/BYekanBold/BYekanBold.svg") format("svg"),
-    url("../font/BYekanBold/BYekanBold.ttf") format("truetype"),
-    url("../font/BYekanBold/BYekanBold.woff") format("woff"),
-    url("../font/BYekanBold/BYekanBold.woff2") format("woff2");
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "BYekan";
-    src: url("../font/BYekan/BYekan.eot");
-    src: url("../font/BYekan/BYekan.eot?#iefix") format("embedded-opentype"),
-    url("../font/BYekan/BYekan.otf") format("opentype"),
-    url("../font/BYekan/BYekan.svg") format("svg"),
-    url("../font/BYekan/BYekan.ttf") format("truetype"),
-    url("../font/BYekan/BYekan.woff") format("woff"),
-    url("../font/BYekan/BYekan.woff2") format("woff2");
-    font-weight: normal;
-    font-style: normal;
-}
-
-* {
-    font-family: IRANSans;
-    font-size: 11px;
-}
-
 body {
     background-color: #f5f5fd!important;
+    font-family: IRANSans;
 }
 
 .abs-center-x {
@@ -49,15 +19,14 @@ body {
     transform: translateX(-50%);
 }
 
-a {
+.nav-buttons a {
     float: right;
-    text-decoration: none;
     position: relative;
-    color: inherit;
+    color: #30defe;
 }
 
-a::after {
-    margin: 0 auto;
+.nav-buttons::after {
+    margin: -10px auto 0;
     position: absolute;
     content: "";
     width: 5em;
@@ -69,11 +38,16 @@ a::after {
     right: 0;
     transform: scaleX(0);
     transition: transform .5s cubic-bezier(.95, .05, .795, .035);
+    color: #30defe;
 }
 
-a:hover::after {
+.nav-buttons:hover::after {
     transition-timing-function: cubic-bezier(.19, 1, .22, 1);
     transform: scaleX(1);
+}
+
+.nav-buttons p:hover {
+    color: #30defe;
 }
 
 .nav-button__login {
@@ -110,7 +84,6 @@ a:hover::after {
 
 .main-content__title p {
     padding-top: 200px;
-    font-family: IRANSans;
     font-size: 25px!important;
     font-weight: 900;
     font-stretch: normal;
@@ -124,7 +97,6 @@ a:hover::after {
 .main-content__desc p {
     width: 418px;
     height: 76px;
-    font-family: IRANSans;
     font-size: 14px!important;
     font-weight: 300;
     font-stretch: normal;
@@ -156,7 +128,6 @@ a:hover::after {
 .main-content__start-now-btn p {
     width: 80px;
     height: 19px;
-    font-family: IRANSans;
     font-size: 12px;
     font-weight: bold;
     font-stretch: normal;
@@ -183,7 +154,6 @@ a:hover::after {
 }
 
 .middle-banner__title {
-    font-family: IRANSans;
     font-size: 26px;
     font-weight: 900;
     font-stretch: normal;
@@ -193,7 +163,6 @@ a:hover::after {
 }
 
 .middle-banner__description {
-    font-family: IRANSans;
     font-size: 13px;
     font-weight: normal;
     font-stretch: normal;
@@ -221,7 +190,6 @@ a:hover::after {
     border-radius: 8px;
     border: none;
     background-color: #f1f4f8;;
-    font-family: IRANSans;
     font-size: 12px;
     color: #96adca;
     outline: none;
@@ -233,8 +201,7 @@ a:hover::after {
     margin: 0 2px auto;
     border-radius: 8px;
     border: none;
-    background-color: #f1f4f8;;
-    font-family: IRANSans;
+    background-color: #f1f4f8;
     font-size: 12px;
     text-align: right;
     color: #96adca;
@@ -248,7 +215,6 @@ a:hover::after {
 .counselor-select-form label {
     height: 46px;
     margin-top: 50px!important;
-    font-family: IRANSans;
     font-size: 12px;
     color: #96adca;
     float: right;
@@ -259,7 +225,6 @@ a:hover::after {
     height: 46px;
     margin-top: 50px!important;
     margin-right: 10px;
-    font-family: IRANSans;
     font-size: 12px;
     line-height: 1.58;
     color: #96adca;
@@ -272,10 +237,12 @@ a:hover::after {
 }
 
 .counselor-select-form__counselor-name-label {
+
     padding: 0 0 0 20px;
 }
 
 .counselor-select__search-btn {
+
     width: 100%;
     height: 46px;
     margin: 0 auto!important;
@@ -289,6 +256,7 @@ a:hover::after {
 }
 
 .categories-list__legal {
+
     width: 90%;
     height: 120px;
     border-radius: 8px;
@@ -297,6 +265,7 @@ a:hover::after {
 }
 
 .categories-list {
+
     height: 37%;
     box-shadow: 0 8px 16px 0 rgba(141, 141, 214, 0.16);
     background-color: #ffffff;
@@ -311,7 +280,7 @@ a:hover::after {
 
 .categories-list__legal-title {
     display: inline-block;
-    font-family: IRANSans;
+
     font-size: 1.3rem;
     text-align: right;
     color: #0f2768;
@@ -321,7 +290,7 @@ a:hover::after {
 
 .categories-list__legal-description {
     display: block;
-    font-family: IRANSans;
+
     font-size: 1rem;
     font-weight: 300;
     line-height: 1.58;
@@ -330,8 +299,9 @@ a:hover::after {
 }
 
 .join-us {
+
     width: 98%;
-    height: 110px;
+    height: 120px;
     border-radius: 10px;
     background-image: url("../image/group-4952.png");
     background-position: center right;
@@ -339,33 +309,56 @@ a:hover::after {
 }
 
 .join-us__title {
-    font-size: 2rem;
-    color: white;
+
+    font-size: 22px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.55;
+    letter-spacing: normal;
+    text-align: right;
+    color: #ffffff;
     margin-top: 25px;
     margin-right: 50px;
 }
 
 .join-use__description {
-    font-size: 1.2rem;
-    color: white;
+
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.57;
+    letter-spacing: normal;
+    text-align: right;
+    color: #ffffff;
     margin-right: 50px;
 }
 
 .join_use__send-resume {
+
     float: left;
     display: inline-block;
     width: 260px;
     height: 50px;
     margin-top: -65px;
     margin-left: 100px;
-    font-size: 1.3rem;
     border-radius: 30px;
-    color: rgb(39,222,223);
     background-color: #f5f5fd;
 }
 
+.join_use__send-resume p {
+    display: inline;
+
+    font-size: 15px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #01d5ff;
+}
+
 .join_use__send-resume i {
-    font-size: 1.5rem;
+    font-size: 15px;
+    color: #01d5ff;
 }
 
 .join_use__send-resume:focus {
@@ -373,17 +366,43 @@ a:hover::after {
 }
 
 .footer {
+
     margin-top: 50px;
-    height: 30%!important;
+    height: 36%!important;
+}
+
+.footer__online-request h5 {
+
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    text-align: right;
+    color: #0f2768;
 }
 
 .footer__online-request-btn {
+
     width: 200px;
     height: 46px;
     margin: 0 auto!important;
-    border-radius: 10px;
+    border-radius: 25px;
     color: white;
     background: linear-gradient(90deg, rgba(255,193,108,1) 0%, rgba(255,159,26,1) 0%);
+}
+
+.footer__online-request-btn p {
+    display: inline;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.64;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
 }
 
 .footer__online-request-btn:focus {
@@ -392,10 +411,12 @@ a:hover::after {
 
 .footer__contact {
 
+    padding: 0;
 }
 
 .footer__contact--title {
-    font-family: IRANSans;
+
+    font-size: 15px;
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
@@ -406,8 +427,8 @@ a:hover::after {
 }
 
 .footer__contact--address {
+    display: inline-block;
     padding: 0;
-    font-family: YekanBakh;
     font-size: 12px;
     font-weight: normal;
     font-stretch: normal;
@@ -418,32 +439,93 @@ a:hover::after {
     color: #7382ae;
 }
 
+.footer__contact--address a {
+    text-decoration: none;
+    color: #7382ae;
+}
+
+
+.footer__contact--list {
+    display: grid;
+    margin-right: 22px;
+    margin-bottom: 10px;
+}
+
+.footer__contact--list p {
+    margin-right: 22px;
+}
+
+.footer__contact--address a:hover,
+.footer__contact--list a:hover {
+    color: #30defe;
+    text-decoration: none;
+}
+
+.footer__contact__social-buttons {
+    color: #7382ae;
+    margin-right: 18px;
+}
+
+.footer__contact__social-buttons--title {
+    font-size: 14px;
+    text-align: right;
+    margin-right: 22px;
+    color: #0f2768;
+    margin-top: -5px!important;
+}
+
+.footer__contact__social-buttons i:hover {
+    color: #30defe;
+    text-decoration: none;
+}
+
 .footer__links {
     padding: 0;
+    line-height: 2;
+    color: #7382ae;
+}
+
+.footer__links--title {
+
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    text-align: right;
+    color: #0f2768;
 }
 
 .footer__links ul {
     width: 54px;
     height: 18px;
-    font-family: YekanBakh!important;
     font-size: 12px;
-    font-weight: normal;
-    font-stretch: normal;
     font-style: normal;
-    line-height: 1.75;
-    letter-spacing: normal;
+    line-height: 3;
     text-align: right;
+    color: #7382ae;
+    margin-bottom: 0px;
+    margin-left: 15px!important;
+}
+
+.footer__links ul li a {
+    margin-right: 15px;
     color: #7382ae;
 }
 
+.footer__links a:hover {
+    color: #30defe;
+    text-decoration: none;
+}
+
 .footer__armoo-introduction {
-    padding: 0;
+    /*padding: 0;*/
     margin-right: 0;
     margin-left: 0;
 }
 
 .footer__armoo-introduction--description {
-    font-family: IRANSans;
     font-size: 11px;
     font-weight: 300;
     font-stretch: normal;
@@ -453,3 +535,7 @@ a:hover::after {
     text-align: right;
     color: #7382ae;
 }
+
+
+
+
